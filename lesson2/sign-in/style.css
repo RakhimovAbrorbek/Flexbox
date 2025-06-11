@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 150px;
+    gap: 35px;
+}
+
+.container .google-btn {
+     width:100%;
+     height: 50px;
+     color: #6e38f7;
+     background-color: #ffff;
+     border-radius: 5px;
+     border: 2px solid #6e38f7 ;
+}
+
+.form-container form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container p{
+    max-width: 390px;
+    font-size: smaller;
+}
+
+
+.container h1{
+    padding-right: 250px;
+}
+
+.form-container input{
+    width: 380px;
+    height: 50px;
+     background-color: #ffff;
+     border-radius: 5px;
+     padding: 20px 15px;
+     border: 2px solid #6e38f7 ; 
+}
+
+.form-container form input::placeholder{
+    font-size: 18px;
+}
+
+.signin-btn{
+     width: 380px;
+    height: 50px;
+     background-color: #ffff;
+     border-radius: 5px;
+     color: #ffff;
+     border: 2px solid #6e38f7 ;
+     background-color: #6e38f7;
+}

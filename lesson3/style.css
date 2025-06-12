@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #ffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+}
+
+
+.navbar .navbar-item .main-name{
+    font-size: 30px;
+}
+
+.main-img img{
+    width: 100%;
+    height:504px;
+    object-fit: cover;
+}
+
+
+.main-text{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.desktop-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.desktop-box .desktop-image img{
+    padding-top:76px;
+    width: 600px;
+}
+.desktop-box .desktop-image h2{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.text-products{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.gadgets{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.gadgets .device {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gadgets .device h3{
+    padding-top: 30px;
+}
+
+.office-image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.info-home{
+    padding: 30px;
+    text-align: center;
+}
+.info-home p{
+    padding: 20px;
+    max-width:1200px;
+    padding-left: 300px;
+    text-align: center;
+}
+
+.home-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-img img{
+    padding: 50px;
+    width: 80%;
+    height: 592px;
+    object-fit: cover;
+}
+.quote-box{
+    padding: 20px;
+    max-width:1200px;
+    padding-left: 300px;
+    text-align: center;
+}
+
+.jobs{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+h2{
+    text-align: center;
+}
+p{
+    padding: 10px;
+    text-align: center;
+}
+
+.quote-text {
+    padding: 50px;
+    padding-top: 50px;
+    width: 90%;
+    height: 300px;
+    background-color: #9aa8b1;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin:  0 auto;
+}
+
+.quote-text h1 {  
+    text-align: center; 
+    color: white;
+    background-color: #9aa8b1;
+}
+
+
+.quote-text span{ 
+    padding: 30px; 
+    text-align: center; 
+    color: white;
+    background-color: #9aa8b1;
+}
+
+.letter{
+    margin-top: 60px;
+    width: 100%;
+    height: 300px;
+    background-color: #9aa8b1;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.last {
+    margin-top: 60px;
+    width: 100%;
+    height: 300px;
+
+    display:flex;
+    justify-content: flex-start;
+    
+}
+.last h3{
+    padding: 50px;
+    padding-bottom:100px;
+}
+
+
+.last ul{
+    padding: 70px;
+}
+
+
+li{
+    font-size: 20px;
+    list-style-type: none;
+}
+
+
+
+
+.last-one {
+    position: absolute;
+    top: 1;
+    right:970px;
+    bottom: 5px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.information p{
+    max-width: 600px;
+}
+
+
